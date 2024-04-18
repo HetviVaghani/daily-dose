@@ -1,0 +1,113 @@
+
+.login-container{
+    position: relative;
+    display: flex;
+}
+
+img{
+    height: 100vh;
+    width: 100vw;
+    object-fit: fill;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.overlay-contant{
+    z-index: 1;
+    transform: translate(-505,-50%);
+}
+
+h1{
+    padding-top: 0px !important;
+    font-weight: 500;
+    font-size: 25px !important ;
+    padding-left: 100px !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+    font-size: 20px;
+    padding-left:100px ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.form-container{
+    max-width: 200px;
+    padding-left: 100px !important;
+    padding-top: 10px;
+}
+
+.text-input {
+    width: 500px;
+    padding: 11px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border: 1px solid #D2D3D9;
+    background-color: #F7FBFF !important;
+}
+.inputtext{
+    width: 500px !important;
+    padding: 11px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid #D2D3D9;
+    background-color:#F7FBFF !important;
+    color: #8897AD;
+}
+.text{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+
+.forgot-password{
+    font-size: 17px;
+    padding-left: 490px;
+    text-decoration: none;
+}
+
+button{
+    margin-left: 100px !important;
+    width: 520px;
+    padding: 11px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    background-color: #5A45E1;
+}
+.signin{
+    padding-left: 100px;
+    color: #8897AD;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.button-container{
+    padding-top: 10px;
+}
+
+.option{
+    
+    width: 255px;
+    background-color:#f2f9ff !important;
+    padding: 7px;
+    color: #dd4b39;
+}
+
+.option1{
+   
+    width: 255px;
+    background-color:#f2f9ff !important;
+    margin-left: 7px !important;
+    padding: 7px;
+    color: #3b5998;
+}
+.account{
+    font-size: 17px;
+    padding-left: 230px;
+    padding-top: 35px;
+}
